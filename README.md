@@ -33,6 +33,7 @@ Management of backup directory configuration
     include backuppc::server
 
 if you want to enable export of the public\_key:
+
     class {'backuppc::server':
       server_tag => 'foo'
     }
